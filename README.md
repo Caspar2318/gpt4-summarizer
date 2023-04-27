@@ -12,4 +12,6 @@ create app and other packages to install as:
 
 => npm i @reduxjs/toolkit
 
+=> npm install -D tailwindcss postcss autoprefixer => npx tailwindcss init -p => tailwind.config.js file modified with content, also add customized font family inside theme/extend => add font links inside "index.html"
+
 ---
