@@ -1,7 +1,11 @@
-import React from "react";
+import { configureStore } from "@reduxjs/toolkit";
 
-const store = () => {
-  return <></>;
-};
+import { articleApi } from "./article";
 
-export default store;
+export const store = configureStore({
+  reducer: {
+    [articleApi.reducerPath]: articleApi.reducer,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(articleApi.middleware),
+});
