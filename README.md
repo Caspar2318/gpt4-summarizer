@@ -1,6 +1,6 @@
 # OpenAI's GPT model usage, summarize the provided link and generated the summary by AI, practical and useful for real life scenarios!
 
-Live address at:
+Live address at: https://readerai.cxcspace.com/
 
 ---
 
